@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
-    android:backgroundTint="#FFEBEE"
+    android:backgroundTint="@color/secondaryColor"
     app:cardCornerRadius="10dp"
     app:cardMaxElevation="10dp">
 
@@ -30,10 +30,12 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:layout_weight="1"
+            android:fontFamily="@font/raleway"
             android:text="Nombre del Super Heroe"
             android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="24sp" />
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

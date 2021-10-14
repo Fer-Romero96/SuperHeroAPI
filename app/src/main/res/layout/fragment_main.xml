@@ -4,20 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainFragment">
+    tools:context=".view.lista.MainFragment">
 
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="133dp"
-        android:layout_marginTop="211dp"
-        android:layout_marginEnd="249dp"
-        android:layout_marginBottom="501dp"
-        android:text="Hola"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primaryColor"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvTituloApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway"
+            android:text="Super Hero API"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="48sp"
+            android:textStyle="bold|italic" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerSuperHeroes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/heroes_renglon" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

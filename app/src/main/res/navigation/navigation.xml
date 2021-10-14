@@ -7,7 +7,20 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.superheroapi.MainFragment"
+        android:name="com.example.superheroapi.view.lista.MainFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" />
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_detallesHeroeFragment"
+            app:destination="@id/detallesHeroeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detallesHeroeFragment"
+        android:name="com.example.superheroapi.view.detalle.DetallesHeroeFragment"
+        android:label="fragment_detalles_heroe"
+        tools:layout="@layout/fragment_detalles_heroe" >
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
 </navigation>
