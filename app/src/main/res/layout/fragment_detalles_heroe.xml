@@ -21,6 +21,7 @@
             android:id="@+id/heroeNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
             android:fontFamily="@font/raleway"
             android:text="Nombre"
             android:textAlignment="center"
@@ -31,6 +32,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/secondaryColor"
             android:fontFamily="@font/raleway"
             android:text="Power Stats"
             android:textAlignment="center"
@@ -104,6 +107,7 @@
                 android:text="Speed"
                 android:textAlignment="center"
                 android:textColor="@color/secondaryColor"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -194,6 +198,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/secondaryColor"
             android:fontFamily="@font/raleway"
             android:text="Biography"
             android:textAlignment="center"
@@ -220,10 +226,11 @@
                 android:id="@+id/heroenombreCompleto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:fontFamily="@font/raleway"
+                android:layout_marginEnd="5dp"
                 android:layout_weight="1"
-                android:textAlignment="textEnd" />
+                android:fontFamily="@font/raleway"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white" />
         </LinearLayout>
 
         <LinearLayout
@@ -245,10 +252,11 @@
                 android:id="@+id/heroeAlterEgos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:fontFamily="@font/raleway"
+                android:layout_marginEnd="5dp"
                 android:layout_weight="1"
-                android:textAlignment="textEnd" />
+                android:fontFamily="@font/raleway"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white" />
         </LinearLayout>
 
         <LinearLayout
@@ -270,10 +278,11 @@
                 android:id="@+id/heroeAliases"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:fontFamily="@font/raleway"
+                android:layout_marginEnd="5dp"
                 android:layout_weight="1"
-                android:textAlignment="textEnd" />
+                android:fontFamily="@font/raleway"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white" />
         </LinearLayout>
 
         <LinearLayout
@@ -295,19 +304,20 @@
                 android:id="@+id/heroeLugarDeNacimiento"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:fontFamily="@font/raleway"
+                android:layout_marginEnd="5dp"
                 android:layout_weight="1"
-                android:textAlignment="textEnd" />
+                android:fontFamily="@font/raleway"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/raleway"
@@ -318,13 +328,13 @@
 
             <TextView
                 android:id="@+id/heroePrimeraAparicion"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:fontFamily="@font/raleway"
+                android:layout_marginEnd="5dp"
                 android:layout_weight="1"
-                android:text="fdfdssssssssssssssss"
-                android:textAlignment="textEnd" />
+                android:fontFamily="@font/raleway"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
         </LinearLayout>
 
         <LinearLayout
@@ -346,10 +356,11 @@
                 android:id="@+id/heroePublicacion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:fontFamily="@font/raleway"
+                android:layout_marginEnd="5dp"
                 android:layout_weight="1"
-                android:textAlignment="textEnd" />
+                android:fontFamily="@font/raleway"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white" />
         </LinearLayout>
 
         <LinearLayout
@@ -371,15 +382,18 @@
                 android:id="@+id/heroeAlineamiento"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:fontFamily="@font/raleway"
+                android:layout_marginEnd="5dp"
                 android:layout_weight="1"
-                android:textAlignment="textEnd" />
+                android:fontFamily="@font/raleway"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white" />
         </LinearLayout>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/secondaryColor"
             android:fontFamily="@font/raleway"
             android:text="Appearance"
             android:textAlignment="center"
@@ -405,11 +419,10 @@
                 android:id="@+id/heroeGenero"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:fontFamily="@font/raleway"
                 android:layout_weight="1"
-                android:text="Genero"
-                android:textAlignment="center" />
+                android:fontFamily="@font/raleway"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
         </LinearLayout>
 
         <LinearLayout
@@ -431,11 +444,10 @@
                 android:id="@+id/heroeRaza"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:fontFamily="@font/raleway"
                 android:layout_weight="1"
-                android:text="Raza"
-                android:textAlignment="center" />
+                android:fontFamily="@font/raleway"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
         </LinearLayout>
 
         <LinearLayout
@@ -457,11 +469,10 @@
                 android:id="@+id/heroeEstatura"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:fontFamily="@font/raleway"
                 android:layout_weight="1"
-                android:text="Estatura"
-                android:textAlignment="center" />
+                android:fontFamily="@font/raleway"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
         </LinearLayout>
 
         <LinearLayout
@@ -483,11 +494,10 @@
                 android:id="@+id/heroePeso"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:fontFamily="@font/raleway"
                 android:layout_weight="1"
-                android:text="Peso"
-                android:textAlignment="center" />
+                android:fontFamily="@font/raleway"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
         </LinearLayout>
 
         <LinearLayout
@@ -509,11 +519,10 @@
                 android:id="@+id/heroeColorDeOjos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:fontFamily="@font/raleway"
                 android:layout_weight="1"
-                android:text="Color de Ojos"
-                android:textAlignment="center" />
+                android:fontFamily="@font/raleway"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
         </LinearLayout>
 
         <LinearLayout
@@ -535,16 +544,17 @@
                 android:id="@+id/heroeColorDePelo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:fontFamily="@font/raleway"
                 android:layout_weight="1"
-                android:text="Color de Pelo"
-                android:textAlignment="center" />
+                android:fontFamily="@font/raleway"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
         </LinearLayout>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/secondaryColor"
             android:fontFamily="@font/raleway"
             android:text="Work"
             android:textAlignment="center"
@@ -554,54 +564,56 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/raleway"
                 android:text="Occupation"
+                android:textAlignment="center"
                 android:textColor="@color/secondaryColor"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/heroeOcupacion"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:fontFamily="@font/raleway"
                 android:layout_weight="1"
-                android:text="Ocupación" />
+                android:fontFamily="@font/raleway"
+                android:textColor="@color/white" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/raleway"
                 android:text="Base of operation"
+                android:textAlignment="center"
                 android:textColor="@color/secondaryColor"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/heroeBaseDeOperaciones"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:fontFamily="@font/raleway"
                 android:layout_weight="1"
-                android:text="Base de Operaciones" />
+                android:fontFamily="@font/raleway"
+                android:textColor="@color/white" />
         </LinearLayout>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/secondaryColor"
             android:fontFamily="@font/raleway"
             android:text="Connections"
             android:textAlignment="center"
@@ -627,9 +639,8 @@
                 android:id="@+id/heroeGrupoDeAfiliación"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
                 android:fontFamily="@font/raleway"
-                android:text="Grupo de Afiliación" />
+                android:textColor="@color/white" />
         </LinearLayout>
 
         <LinearLayout
@@ -650,9 +661,8 @@
                 android:id="@+id/heroeRelativos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
                 android:fontFamily="@font/raleway"
-                android:text="Relativos" />
+                android:textColor="@color/white" />
         </LinearLayout>
 
     </LinearLayout>
